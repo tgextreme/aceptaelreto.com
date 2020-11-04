@@ -1,0 +1,31 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\tgonzalez\Documents\NetBeansProjects\aceptaelreto.com\dist\output.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\tgonzalez\Documents\NetBeansProjects\aceptaelreto.com\dist\.
+Java min ver:	1.008.000
+Java max ver:	1.015.000
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_271\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_271
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_271\bin\javaw.exe (OK)
+Match:		1.008.000_271
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_221
+Ignore:		1.008.000_221
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+32-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+32-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_271 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_271\bin\javaw.exe
+Launcher args:	-jar "C:\Users\tgonzalez\Documents\NetBeansProjects\aceptaelreto.com\dist\output.exe"
+Args length:	85/32768 chars
+Exit code:	0
