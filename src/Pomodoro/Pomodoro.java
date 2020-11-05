@@ -121,11 +121,13 @@ public class Pomodoro extends javax.swing.JFrame {
                     jLabel1.setText(minutos + ":" + seg);
                     if (i < 0) {
                         timer.cancel();
+                        sonido.start();
                     }
+                    
                 }
             }, 0, 1000);
             //task.start();
-            sonido.start();
+            
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Error: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
