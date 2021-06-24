@@ -105,7 +105,7 @@ public class Pomodoro extends javax.swing.JFrame {
         try {
             Clip sonido = AudioSystem.getClip();
             sonido.open(AudioSystem.getAudioInputStream(new File("wav2.wav")));
-            
+
             int segundos = Integer.parseInt(jTextField1.getText());
             Timer timer = new Timer();
             timer.scheduleAtFixedRate(new TimerTask() {
@@ -123,11 +123,11 @@ public class Pomodoro extends javax.swing.JFrame {
                         timer.cancel();
                         sonido.start();
                     }
-                    
+
                 }
             }, 0, 1000);
             //task.start();
-            
+
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Error: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
